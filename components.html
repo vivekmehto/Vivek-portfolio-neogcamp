@@ -57,7 +57,7 @@
     <h3>unordered list</h3>
     <p> This list will not have the bullet</p>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
@@ -66,15 +66,15 @@
 
     <h3> unordered inline list</h3>
 
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
     </ul>
 
     <h3> reverse ordered list</h3>
 
-    <ol reversed>
+    <ol class="list-non-bullet" reversed>
         <li>milk</li>
         <li>eggs</li>
         <li>bread</li>
@@ -84,17 +84,17 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
             </li>
-            <li>
-                <a href="/">products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
             </li>
         </ul>
     </nav>
@@ -103,15 +103,15 @@
 
     <h2>@header</h2>
 
-    <header>
-        <img src="/images/hero.svg" />
-        <h1>vivek mehto<span> the web developer</span></h1>
+    <header class="hero">
+        <img class="hero-img" src="/images/hero.svg" />
+        <h1 class="hero-heading">vivek mehto<span class="heading-inverted"> the web developer</span></h1>
     </header>
 
     <hr>
     <h2>@section</h2>
-    <section>
-        <div>
+    <section class="section">
+        <div class="container container-center">
             <h1>white section</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quaerat tempore at nisi dolores odio
                 corporis dolor voluptatum sunt quibusdam neque, eius laudantium itaque aut eos fugit. Atque, vitae
@@ -123,8 +123,8 @@
 
     </section>
 
-    <section>
-        <div>
+    <section class="section off-white">
+        <div class="container container-center">
             <h1>off white section</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat magni quidem, aut repudiandae,
                 provident iure voluptatibus tempore maxime itaque iusto id, ad rerum nostrum ipsam unde voluptas et.
@@ -140,21 +140,21 @@
 
     <h2>@footer</h2>
 
-    <footer>
+    <footer class="footer">
         <div>Some small heading inside footer</div>
-        <ul>
-            <li>
-                <a href="/">
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">
                     socialone
                 </a>
             </li>
-            <li>
-                <a href="/">
+            <li class="list-item-inline">
+                <a class="link" href="/">
                     socialtwo
                 </a>
             </li>
-            <li>
-                <a href="/">
+            <li class="list-item-inline">
+                <a class="link" href="/">
                     socialthree
                 </a>
             </li>
