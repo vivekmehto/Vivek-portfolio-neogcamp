@@ -3,7 +3,7 @@
 :root {
     --primary-color: #10B981;
     --dark-gray: #6B7280;
-    --off-white: #E5E7EB;
+    --off-white: #F3F4F6;
 }
 
 
@@ -11,6 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0px;
     margin: 0px;
+    font-size: 1.2rem;
 }
 
 .container {
@@ -103,6 +104,11 @@ hr {
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color)
+}
+
+.section {
+    padding-bottom: 1.3rem;
+    margin-bottom: 1.2rem;
 }
 
 .section h1{
