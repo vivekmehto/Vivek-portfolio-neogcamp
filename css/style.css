@@ -50,6 +50,7 @@ hr {
 
 .list-non-bullet {
     list-style: none;
+    padding-inline-start: 2px;
 }
 
 .list-item-inline {
