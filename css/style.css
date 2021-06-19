@@ -28,7 +28,8 @@ body {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.2rem;
+    margin-right: 1.2rem;
 }
 
 .link-primary {
