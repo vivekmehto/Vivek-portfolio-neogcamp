@@ -11,7 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0px;
     margin: 0px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .container {
@@ -70,6 +70,8 @@ hr {
     font-size: 1.5rem ;
     font-weight: bold;
     margin-top: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -79,6 +81,13 @@ hr {
 
 .navigation .nav-pills {
    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .navigation .nav-pills{
+    display:  flex ;
+    flex-direction: column;
+    }
 }
 
 .navigation .link-active {
@@ -92,7 +101,7 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 360px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
@@ -139,3 +148,4 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+
