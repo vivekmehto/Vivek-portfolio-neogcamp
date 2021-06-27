@@ -78,15 +78,14 @@ hr {
     background-color: var(--primary-color);
     color: white;
     margin: 0px;
+    max-height: 8vh;
     border-bottom-left-radius: 0.8rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
-.navigation .nav-brand {
+.nav-brand {
     font-size: 1.5rem ;
     font-weight: bold;
-    margin-top: 1rem;
     display: flex;
     align-items: center;
 }
@@ -96,15 +95,60 @@ hr {
     color: white;
 }
 
-.navigation .nav-pills {
+ .nav-pills {
    text-align: center;
 }
 
-@media (max-width: 600px) {
-    .navigation .nav-pills{
-    display:  flex ;
-    flex-direction: column;
+.burger{
+    display: none;
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+@media screen and (mac-width: 1024px) {
+    .nav-pills{
+        width: 60%;
     }
+}
+
+@media screen and  (max-width: 768px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+   .nav-pills {
+       position: absolute;
+       right: 0px;
+       height: 32vh;
+       top: 8vh;
+       background-color: var(--primary-color);
+    
+      
+       width: 100%;
+       transform: translateX(100%);
+   }
+
+   .nav-pills li {
+       color: white;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+   .burger {
+       display: block;
+       cursor: pointer;
+   }
+
+   .nav-active {
+       transform: translateX(0%);
+   }
 }
 
 .navigation .link-active {
