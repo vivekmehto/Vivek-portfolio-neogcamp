@@ -78,7 +78,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     margin: 0px;
-    max-height: 8vh;
+    max-height: 5vh;
     border-bottom-left-radius: 0.8rem;
     display: flex;
     justify-content: space-around;
@@ -122,13 +122,12 @@ hr {
     }
 
    .nav-pills {
+       display: none;
        position: absolute;
        right: 0px;
-       height: 32vh;
-       top: 8vh;
+       top: 5vh;
        background-color: var(--primary-color);
-    
-      
+       padding: 1rem;
        width: 100%;
        transform: translateX(100%);
    }
@@ -147,11 +146,12 @@ hr {
    }
 
    .nav-active {
+       display: block;
        transform: translateX(0%);
    }
 }
 
-.navigation .link-active {
+ .link-active {
     font-weight: bolder;
 }
 
