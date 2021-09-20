@@ -9,5 +9,5 @@ This is my Portfolio created during neogCamp level zero.
 
 - CSS
 
--VanillaJS
+- VanillaJS
   
